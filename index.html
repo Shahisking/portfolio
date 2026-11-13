@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Shahiskan — AI &amp; Machine Learning Engineer</title>
+    <meta
+      name="description"
+      content="AI / Machine Learning Engineer building production-oriented GenAI, RAG, and Computer Vision systems. B.Tech AI & Data Science (2028), Coimbatore."
+    />
+    <meta name="author" content="Mohamed Shahiskan" />
+    <meta name="theme-color" content="#0A0A0B" />
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mohamed Shahiskan" />
+    <meta property="og:title" content="Mohamed Shahiskan — AI &amp; Machine Learning Engineer" />
+    <meta
+      property="og:description"
+      content="Building production-oriented GenAI, RAG, and Computer Vision systems. Explore case studies, architecture diagrams, and engineering work."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mohamed Shahiskan — AI &amp; Machine Learning Engineer" />
+    <meta
+      name="twitter:description"
+      content="Building production-oriented GenAI, RAG, and Computer Vision systems."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts: Plus Jakarta Sans (UI/Headings), Fraunces (Editorial Serif Accent), JetBrains Mono (Technical/Data) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data: JSON-LD Person Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohamed Shahiskan",
+        "jobTitle": "AI / Machine Learning Engineer",
+        "description": "AI / Machine Learning Engineer, building production-oriented GenAI, RAG and CV systems.",
+        "email": "mailto:shahiskhan26@gmail.com",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Adithya Institute of Technology, Coimbatore"
+        },
+        "sameAs": [
+          "https://github.com/Shahisking",
+          "https://www.linkedin.com/in/mohamed-shahiskhan-5018b532a"
+        ],
+        "knowsAbout": [
+          "Generative AI",
+          "Retrieval-Augmented Generation",
+          "Computer Vision",
+          "Natural Language Processing",
+          "Machine Learning",
+          "Full-Stack Engineering"
+        ]
+      }
+    </script>
+
+    <!-- Prevent theme flash: default dark-first (#0A0A0B) unless explicitly set to light -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('ms-portfolio-theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAFAFB] text-[#111114] dark:bg-[#0A0A0B] dark:text-[#F4F4F6] antialiased selection:bg-indigo-500/30 selection:text-indigo-900 dark:selection:text-indigo-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
